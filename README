@@ -24,4 +24,4 @@ SYSTEMS REQUIREMENTS
 	- CMake 3.2.2
 
 You have to install:
-	sudo apt-get install build-essential cmake libglu1-mesa-dev qtdeclarative5-dev qtconnectivity5-dev 
+	sudo apt-get install build-essential cmake qtdeclarative5-dev qtconnectivity5-dev 
