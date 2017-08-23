@@ -6,7 +6,9 @@ add_definitions(-D LINUX)
 add_definitions(-D _GNU_SOURCE)
 
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
+set(CMAKE_AUTOMOC NO)
 set(CMAKE_INCLUDE_CURRENT_DIR YES)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x")
 
 set(libs)
 
