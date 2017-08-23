@@ -21,7 +21,16 @@
 SYSTEMS REQUIREMENTS 
 	- Ubuntu 14.04 64 bits
 	- Qt 5.7 Development Libraries (Qt Bluetooth Low Energy)
-	- CMake 3.2.2
+	- CMake 3.5.1
 
-You have to install:
+INSTALLATION:
 	sudo apt-get install build-essential cmake qtdeclarative5-dev qtconnectivity5-dev 
+
+COMPILATION
+	- mkdir build && cd build
+	- cmake ..
+	- make
+
+EXECUTION
+	- sudo ./bin/myoexample
+		
